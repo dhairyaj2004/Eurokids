@@ -14,9 +14,9 @@ export default function Home() {
     " Kind Hearts",
   ];
   const images = [
-    "/images/hero1.jpg",
-    "/images/hero1.jpg",
-    "/images/hero1.jpg",
+    "/images/hero1.png",
+    "/images/hero2.png",
+    "/images/hero3.png",
   ];
   const cards = [
     {

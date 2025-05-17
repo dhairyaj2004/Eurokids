@@ -17,7 +17,7 @@ export default function Header() {
             />
             <p className="self-center text-xl font-semibold sm:text-2xl text-blue-700">
               Euro<span className="text-orange-500">Kids</span>
-              <span className="font-normal text-gray-600 ml-1 sm:inline">
+              <span className="font-normal text-gray-600 ml-1 hidden sm:inline">
                 - Waghodia Road
               </span>
             </p>
