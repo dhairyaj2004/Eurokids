@@ -38,7 +38,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    A-1 Vrundavan Society, Dabhoi, 391110
+                                    Payal Park 2, B-11, Waghodia Road, beside Das Plaza, near Swaminarayan Temple, Sahkar Nagar, Pangat Park, Waghodia, Vadodara, Gujarat – 390025
                                 </div>
                             </div>
 
@@ -60,7 +60,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    +91 7861010539
+                                     075730 23989
                                 </div>
                             </div>
 
@@ -81,8 +81,8 @@ export default function Contact() {
                                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                                     />
                                 </svg>
-                                <a href='mailto:dhairyaj2004@gmail.com' className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    dhairyaj2004@gmail.com
+                                <a href='mailto:eurokidswaghodiaroad@gmail.com' className="ml-4 text-md tracking-wide font-semibold w-40">
+                                    eurokidswaghodiaroad@gmail.com
                                 </a>
                             </div>
                         </div>

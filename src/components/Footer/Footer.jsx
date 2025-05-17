@@ -7,7 +7,7 @@ export default function Footer() {
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center">
               <img
-                src="../../../Images/logo.jpg"
+                src="/images/logo.jpg"
                 className="mr-3 sm:h-24 sm:w-24 h-16 w-16"
                 alt="EuroKids Logo"
               />

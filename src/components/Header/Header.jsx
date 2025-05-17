@@ -11,7 +11,7 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img
-              src="../../../Images/logo.jpg"
+              src="/images/logo.jpg"
               className="mr-3 h-8 sm:h-10"
               alt="EuroKids Logo"
             />
