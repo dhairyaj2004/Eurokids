@@ -73,53 +73,37 @@ export default function Home() {
   return (
     <div className="mx-auto w-full max-w-7xl bg-gray-50">
       <ImagesSlider
-        images={images}
-        autoplay={true}
-        overlay={true}
-        overlayClassName="bg-black bg-opacity-50"
-      >
-        <aside className="relative h-[100vh] w-full overflow-hidden text-white">
-          <div className="absolute inset-0 bg-black bg-opacity-50 z-10" />
+  images={images}
+  autoplay={true}
+  overlay={true}
+  overlayClassName="bg-black bg-opacity-50"
+>
+  <aside className="relative h-[100vh] w-full overflow-hidden text-white">
+    <div className="absolute inset-0 bg-black bg-opacity-50 z-10" />
 
-          <div className="relative z-20 flex items-center justify-center h-full px-4 sm:px-6 lg:px-8">
-            <div className="text-center sm:text-right sm:ml-auto max-w-2xl space-y-6">
-              <p className="text-4xl sm:text-5xl font-semibold text-white">
-                Building
-                <span className="text-orange-400">
-                  <Typewriter
-                    words={typeWriter}
-                    loop={true}
-                    cursor
-                    cursorStyle="_"
-                    typeSpeed={70}
-                    deleteSpeed={50}
-                    delaySpeed={1000}
-                  />{" "}
-                </span>
-              </p>
+    <div className="relative z-20 flex items-center justify-center h-full px-4 sm:px-6 lg:px-8">
+      <div className="text-center sm:text-right sm:ml-auto max-w-2xl space-y-6">
+        <p className="text-4xl sm:text-5xl font-semibold text-white">
+           Spark Your <span className="text-blue-400">Child’s Imagination!</span> <br />
+           Building{" "}
+          <span className="text-orange-400">
+            <Typewriter
+              words={typeWriter}
+              loop={true}
+              cursor
+              cursorStyle="_"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
+          </span>
+        </p>
 
-              <Link
-                to="/"
-                className="inline-flex items-center px-6 py-3 text-white font-semibold bg-orange-600 rounded-lg hover:bg-orange-700 transition-all"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  className="mr-2"
-                  fill="white"
-                  width="24"
-                  height="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                >
-                  <path d="M12 2a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5zm0 12c4 0 8 2 8 6v2H4v-2c0-4 4-6 8-6z" />
-                </svg>
-                Enroll now
-              </Link>
-            </div>
-          </div>
-        </aside>
-      </ImagesSlider>
+      </div>
+    </div>
+  </aside>
+</ImagesSlider>
+
 <div className="grid  place-items-center sm:mt-20">
         <section className="px-6 py-12 bg-gray-50">
           <div className="max-w-6xl mx-auto text-center mb-12">

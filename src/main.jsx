@@ -4,6 +4,7 @@ import Layout from './components/layout'
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
+import Form from './components/Form/EForm'
 import NotFound from './components/NotFound/NotFound'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
@@ -23,6 +24,10 @@ const router=createBrowserRouter([
       {
         path: 'contact',
         element: <Contact />
+      },
+      {
+        path:'form',
+        element:<Form/>
       },
       {
         path: ':id',
