@@ -19,7 +19,7 @@ export default function Header() {
               alt="EuroKids Logo"
             />
             <p className="self-center text-xl font-semibold sm:text-2xl text-blue-700">
-              Euro<span className="text-orange-500">Kids</span>
+              EuroKids
               <span className="font-normal text-gray-600 ml-1 hidden sm:inline">
                 - Waghodia Road
               </span>
