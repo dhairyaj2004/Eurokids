@@ -1,14 +1,7 @@
 import { useState } from "react";
 
 export default function Form() {
-  const [loading, setLoading] = useState(false);
-  const [msg, setMsg] = useState("");
 
-  async function handleSubmit(e) {
-    e.preventDefault();
-    /* …you can delete this whole handler now that you’re using an iframe,
-       but I’m leaving it in case you come back to a custom form… */
-  }
 
   return (
     <section className="mx-auto max-w-5xl px-4 py-16">

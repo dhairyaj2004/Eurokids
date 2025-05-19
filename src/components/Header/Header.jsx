@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { EnrollNowFab,EnrollNowDesktop } from "../enroll";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
+    <>
+    <EnrollNowFab />
     <header className="shadow sticky z-50 top-0">
       <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
@@ -100,21 +103,12 @@ export default function Header() {
                 </NavLink>
               </li>
               <li>
-                <NavLink
-                  to="/Form"
-                  className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 ${
-                      isActive ? "text-orange-700" : "text-red-700 font-bold"
-                    } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
-                  }
-                >
-                  ENROLL NOW
-                </NavLink>
+                <EnrollNowDesktop className="hidden lg:block"/>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    </header>
+    </header> </>
   );
 }
