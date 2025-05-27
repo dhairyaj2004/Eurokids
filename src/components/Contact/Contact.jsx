@@ -51,7 +51,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    Payal Park 2, B-11, Waghodia Road, beside Das Plaza, near Swaminarayan Temple, Sahkar Nagar, Pangat Park, Waghodia, Vadodara, Gujarat – 390025
+                                    Payal Park 2, B-11, Waghodia Road, beside Das Plaza, near Swaminarayan Temple, Pangat Park, Waghodia, Vadodara, Gujarat – 390025
                                 </div>
                             </div>
 
