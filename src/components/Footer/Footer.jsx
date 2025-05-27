@@ -13,14 +13,23 @@ export default function Footer() {
               />
             </Link>
             <div class="flex items-center space-x-2 text-gray-800">
-  <svg class="w-5 h-5 text-red-600" fill="currentColor" viewBox="0 0 20 20">
-    <path fill-rule="evenodd" d="M10 2C6.686 2 4 4.686 4 8c0 4.418 6 10 6 10s6-5.582 6-10c0-3.314-2.686-6-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z" clip-rule="evenodd"/>
-  </svg>
-  <p class="text-sm md:text-base">
-    Payal Park 2, B-11, Waghodia Road, beside Das Plaza, near Swaminarayan Temple, Sahkar Nagar, Pangat Park, Waghodia, Vadodara, Gujarat – 390025
-  </p>
-</div>
-
+              <svg
+                class="w-5 h-5 text-red-600"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 2C6.686 2 4 4.686 4 8c0 4.418 6 10 6 10s6-5.582 6-10c0-3.314-2.686-6-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p class="text-sm md:text-base">
+                Payal Park 2, B-11, Waghodia Road, beside Das Plaza, near
+                Swaminarayan Temple, Sahkar Nagar, Pangat Park, Waghodia,
+                Vadodara, Gujarat – 390025
+              </p>
+            </div>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
@@ -134,8 +143,6 @@ export default function Footer() {
                     </svg>
                     <span className="text-black">Instagram</span>
                   </a>
-                      
-                    
                 </section>
 
                 <section class="flex justify-center items-center ml-5">
@@ -173,7 +180,29 @@ export default function Footer() {
                     </svg>
                     <span className="text-black">Facebook</span>
                   </a>
-                  
+                </section>
+
+                <section class="flex justify-center items-center ml-5">
+                  <a
+                    href="https://www.youtube.com/@eurokids-waghodiaroad8092"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 48 48"
+                    >
+                      <path
+                        fill="#FF3D00"
+                        d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z"
+                      ></path>
+                      <path fill="#FFF" d="M20 31L20 17 32 24z"></path>
+                    </svg>
+                    <span className="text-black">Youtube</span>
+                  </a>
                 </section>
               </div>
             </div>

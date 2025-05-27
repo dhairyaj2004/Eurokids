@@ -1,6 +1,19 @@
-import React from 'react'
-
+import emailjs from 'emailjs-com';
 export default function Contact() {
+    const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs.sendForm('service_oca6qhh', 'template_nq4ks7n', e.target, 'toA4v7nXdtw0Gg8tz')
+    .then((result) => {
+      console.log(result.text);
+      alert("Message sent successfully!");
+      e.target.reset(); // Clear form after success
+    }, (error) => {
+      console.log(error.text);
+      alert("Failed to send message. Please try again later.");
+    });
+};
+
     return (
         <div className="relative flex items-top justify-center min-h-[700px] bg-white sm:items-center sm:pt-0">
             <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
@@ -87,14 +100,14 @@ export default function Contact() {
                             </div>
                         </div>
 
-                        <form className="p-6 flex flex-col justify-center">
+                        <form onSubmit={sendEmail} className="p-6 flex flex-col justify-center">
                             <div className="flex flex-col">
                                 <label for="name" className="hidden">
                                     Full Name
                                 </label>
                                 <input
-                                    type="name"
-                                    name="name"
+                                    type="text"
+                                    name="user_name"
                                     id="name"
                                     placeholder="Full Name"
                                     className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-orange-500 focus:outline-none"
@@ -107,7 +120,7 @@ export default function Contact() {
                                 </label>
                                 <input
                                     type="email"
-                                    name="email"
+                                    name="user_email"
                                     id="email"
                                     placeholder="Email"
                                     className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-orange-500 focus:outline-none"
@@ -120,7 +133,7 @@ export default function Contact() {
                                 </label>
                                 <input
                                     type="tel"
-                                    name="tel"
+                                    name="user_phone"
                                     id="tel"
                                     placeholder="Telephone Number"
                                     className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-orange-500 focus:outline-none"
